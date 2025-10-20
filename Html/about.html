@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <title>Home | Tech Tonic</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primary: "#032B44",
+          accent: "#D4A017",
+          orange: "#E88C00",
+        },
+      },
+    },
+  };
+</script>
+</head>
+
+<body class='bg-primary text-white font-sans'>
+<header class="fixed top-0 w-full bg-primary text-white shadow-lg z-50">
+  <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="flex items-center gap-2 text-2xl font-bold text-accent">
+      <img src="../images/logo.png" alt="Logo" class="w-8 h-8"> TECH TONIC
+    </a>
+    <ul class="flex gap-6 text-sm font-medium">
+      <li><a href="index.html" class="hover:text-accent">Home</a></li>
+      <li><a href="about.html" class="hover:text-accent">About</a></li>
+      <li><a href="services.html" class="hover:text-accent">Services</a></li>
+      <li><a href="resume.html" class="hover:text-accent">Resume</a></li>
+      <li><a href="gallery.html" class="hover:text-accent">Gallery</a></li>
+      <li><a href="contact.html" class="hover:text-accent">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero Intro -->
+    <section class="container mx-auto px-6 pt-32 pb-10 text-center">
+      <h1 class="text-4xl font-bold mb-2">Hello, I'm <span class="text-[#d4a31c]">TECH TONIC</span></h1>
+      <p class="text-[#d4a31c] text-sm font-medium mb-4">
+        Creative Brand Strategist  IT Specialist  Database Enthusiast
+      </p>
+      <p class="text-gray-300 max-w-3xl mx-auto">
+        I create technology-driven solutions and brand strategies that make life easier for 
+        people and organizations.
+        With a background in administration, IT, and creative design, I 
+        bridge the gap between business needs and digital
+        innovation by designing systems and brands that are practical, 
+        reliable, and user-friendly.
+      </p>
+    </section>
+
+    <!-- About Content -->
+    <section class="container mx-auto px-6 py-10 flex flex-col md:flex-row items-start justify-between gap-10">
+      <!-- Left content -->
+      <div class="max-w-xl">
+        <p class="uppercase text-sm text-gray-400 mb-2 tracking-widest">Hello there</p>
+        <h2 class="text-3xl font-semibold leading-snug mb-6">
+          I’m an IT Specialist, Database Enthusiast, and Web Developer with a passion for building smart, efficient, and
+          user-friendly digital solutions.
+        </h2>
+        <p class="text-gray-300 mb-4 leading-relaxed">
+          I started my journey in 2022, studying IT and discovering my love for database management, problem-solving,
+          and digital tools. Over time, I grew from experimenting with simple projects to building real-world systems
+          from charity databases and school management systems to healthcare and educational apps.
+        </p>
+        <p class="text-gray-300 mb-4 leading-relaxed">
+          Each step has sharpened my skills and deepened my belief that technology can transform communities.
+        </p>
+
+        <p class="text-gray-400 text-sm mb-4">
+          Currently, I work as a Secretary and IT Specialist in a medical facility, where I manage digital records,
+          troubleshoot systems, and streamline workflows. Beyond my job, I dedicate time to personal projects,
+          hackathons, and academic work.
+        </p>
+
+        <ul class="list-disc list-inside text-gray-300 mb-8 space-y-1">
+          <li>EduDataHub: school database web app for managing student data across Liberia.</li>
+          <li>MamaCare AI: healthcare system predicting maternal risks.</li>
+          <li>School Management Systems: built with MS Access and Python for data organization.</li>
+        </ul>
+
+        <div class="flex space-x-4">
+          <a href="./services.html"
+            class="bg-[#d4a31c] text-[#072f49] font-semibold px-6 py-3 rounded-full hover:bg-[#e2b93b] transition">
+            View My Work
+          </a>
+          <a href="./resume.html"
+            class="border border-[#d4a31c] text-[#d4a31c] font-semibold px-6 py-3 rounded-full hover:bg-[#d4a31c] hover:text-[#072f49] transition">
+            Download Resume
+          </a>
+        </div>
+      </div>
+
+      <!-- Right image -->
+      <div class="bg-[#d97706] rounded-2xl p-4">
+        <img src="../images/imgg3.jpg" alt="Tech Tonic" class="rounded-2xl w-[300px] md:w-[350px]" />
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="bg-[#08385a] py-16">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-4">Skills</h2>
+        <p class="text-gray-300 max-w-3xl mx-auto mb-10">
+          I specialize in a variety of technical and creative skills that allow me to build efficient, functional, and
+          visually appealing solutions for web, apps, databases, and IT systems.
+        </p>
+
+        <!-- Skills Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <!-- Skill Card -->
+          <div class="bg-[#0b446b] p-5 rounded-xl shadow-md">
+            <h3 class="font-semibold mb-2">HTML, CSS, and JavaScript</h3>
+            <p class="text-sm text-gray-400 mb-3">
+              Building responsive, clean, and user-friendly web interfaces.
+            </p>
+            <div class="w-full bg-gray-700 rounded-full h-2 mb-1">
+              <div class="bg-[#d4a31c] h-2 rounded-full" style="width: 90%"></div>
+            </div>
+            <p class="text-xs text-gray-400">90%</p>
+          </div>
+
+          <div class="bg-[#0b446b] p-5 rounded-xl shadow-md">
+            <h3 class="font-semibold mb-2">Hardware Setup & Maintenance</h3>
+            <p class="text-sm text-gray-400 mb-3">Installing and maintaining computer hardware and peripherals.</p>
+            <div class="w-full bg-gray-700 rounded-full h-2 mb-1">
+              <div class="bg-[#d4a31c] h-2 rounded-full" style="width: 65%"></div>
+            </div>
+            <p class="text-xs text-gray-400">65%</p>
+          </div>
+
+          <div class="bg-[#0b446b] p-5 rounded-xl shadow-md">
+            <h3 class="font-semibold mb-2">Software Installation & Troubleshooting</h3>
+            <p class="text-sm text-gray-400 mb-3">
+              Installing and configuring software applications and operating systems.
+            </p>
+            <div class="w-full bg-gray-700 rounded-full h-2 mb-1">
+              <div class="bg-[#d4a31c] h-2 rounded-full" style="width: 95%"></div>
+            </div>
+            <p class="text-xs text-gray-400">95%</p>
+          </div>
+
+          <div class="bg-[#0b446b] p-5 rounded-xl shadow-md">
+            <h3 class="font-semibold mb-2">UI/UX Design</h3>
+            <p class="text-sm text-gray-400 mb-3">Designing intuitive interfaces and improving user experience.</p>
+            <div class="w-full bg-gray-700 rounded-full h-2 mb-1">
+              <div class="bg-[#d4a31c] h-2 rounded-full" style="width: 85%"></div>
+            </div>
+            <p class="text-xs text-gray-400">85%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+ <!-- Footer -->
+    <footer class="bg-[#072f49] text-gray-400 text-center py-8 border-t border-[#0c3d5e]/40">
+      <p>© 2025 Copyright <span class="text-white font-medium">tech-tonic</span> All Rights Reserved</p>
+      <div class="flex justify-center space-x-4 mt-3 text-[#00b0ff]">
+        <a href="https://web.facebook.com/mr.goodness23"><i class="fab fa-facebook-square fa-lg  "></i></a>
+        <a href="https://github.com/que-won"><i class="fa-brands fa-github"></i></a>
+        <a href="www.linkedin.com/in/archie-quewon-6694b9265"><i class="fa-brands fa-linkedin"></i></a>
+        <a href=" https://wa.me/qr/XXQ24OYUDKEMD1 "><i class="fab fa-whatsapp-square fa-lg fa-fw"></i></a>
+      </div>
+      <p class="text-sm mt-3 text-gray-500">
+        Designed by <span class="text-[#d4a31c]">Tech Tonic</span> <br> Connecting through technology, collaboration, and innovation.
+      </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log
+
+# Runtime files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+.next/
+.parcel-cache/
+.vite/
+.cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Dependency directories
+.pnp.js
+.pnp.cjs
+.pnp/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
+
+# package-lock.json
+package-lock.json
+
+package.json
